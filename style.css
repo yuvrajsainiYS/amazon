@@ -4,6 +4,9 @@
     text-decoration: none;
 
 }
+body{
+    background-color: rgb(230, 230, 230);
+}
 
 .container{
     display: flex;
@@ -41,15 +44,14 @@
     border-top-left-radius:5px ;
     border-bottom-left-radius: 5px;
     border: none;
-    border-right: 1px solid grey;
+    border-right: 1px solid rgb(197, 191, 191);
 }
 
 
 .search-bar{
     height: 35px;
-    
-    display: flex;
-    margin-top: 10px;
+     display: flex;
+    margin-top: 15px;
     border: none;
     
 }
@@ -68,7 +70,6 @@
     width: 38px;
     height: 35px;
     position: relative;
-    top: px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     
@@ -85,10 +86,85 @@
 
 .language{
     position: relative;
-    top: 17px;
-    border: none;
+    top: 19px;
+    border: none ;
     
 }
 .language select{
     border: none;
+}
+
+.language img {
+    width: 20px;
+}
+
+.language select{
+    border: none;
+    color: white;
+    background-color: #131921;
+    font-family: sans-serif;
+    
+}
+.search-bar option{
+    background-color: white;
+    
+}
+
+.sign-in{
+    color: white;
+    position: relative;
+    top: 19px;
+}
+.order-detail{
+    color: white;
+    position: relative;
+    top: 19px;
+}
+.cart{
+     position: relative;
+     top: 7px;
+     
+    
+}
+.cart i{
+    font-size: 50px;
+}  
+.info{
+    display: flex;
+    position: relative;
+    background-color:#232f3e ; 
+    justify-content: space-between;   
+}
+.info ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+}
+.option ul{
+    display: flex;
+    gap: 13px;
+}
+.header1{ 
+    display: flex;
+    position: relative;
+    left:10px ;
+    font-weight: bold;
+
+    
+}
+.info a{ 
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.option{
+    position: relative;
+    right: 30px;
+}
+.header1 i{
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    
 }
